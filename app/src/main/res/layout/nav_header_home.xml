@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/gradient_theme_color"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/headerImage"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:tint="#11000000"
+        android:src="@drawable/polygon_bg"
+        android:transitionName="@string/transition_name_slide"
+        app:layout_collapseMode="parallax"
+        app:layout_collapseParallaxMultiplier="0.9"
+        android:background="@drawable/gradient_theme_color"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_dark_tp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+        <apps.webbisswift.dealsbazaar.Utils.customview.CTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="@string/app_title"
+            app:font="@string/font_poppins"
+            app:fstyle="2"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowColor="@color/light_gray"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/CTextView"
+            android:drawableLeft="@drawable/app_icon_white_small"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            />
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.screens.home.HomeActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@drawable/gradient_theme_color"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/search_box_bg"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                >
+
+                <ImageView
+                    android:id="@+id/back_btn"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_arrow_purple_24dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    />
+
+
+                <apps.webbisswift.dealsbazaar.Utils.customview.CAutoCompleteView
+                    android:id="@+id/topSearchBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/search_hint"
+                    android:textColorHint="@color/secondary_text"
+                    android:textColor="@color/primary_text"
+                    android:layout_gravity="center_horizontal"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:imeOptions="actionSearch"
+                    android:inputType="textNoSuggestions|text"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    app:font="@string/font_poppins"
+                    app:fstyle="@integer/font_regular"
+                    android:popupBackground="@color/white"
+                    android:dropDownSelector="?attr/selectableItemBackgroundBorderless"
+                    android:layout_toStartOf="@+id/searchBtn"
+                    android:layout_toEndOf="@+id/back_btn"
+                    />
+
+
+                <ImageView
+                    android:id="@+id/searchBtn"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_search"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <include layout="@layout/search_result_grid" />
+
+
+</android.support.design.widget.CoordinatorLayout>

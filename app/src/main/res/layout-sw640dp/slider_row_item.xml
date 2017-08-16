@@ -1,0 +1,55 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:orientation="horizontal"
+        >
+    <ViewSwitcher
+        android:id="@+id/slideSwitcher"
+        android:layout_width="0dp"
+        android:layout_weight="0.6"
+        android:layout_height="wrap_content"
+        android:background="@color/light_gray_m"
+        android:layout_marginRight="5dp"
+        >
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/slideProgress"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:indicatorName="BallSpinFadeLoaderIndicator"
+            android:layout_gravity="center_vertical|center_horizontal"
+            />
+
+
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            />
+
+    </ViewSwitcher>
+
+
+    <include layout="@layout/departments_grid" />
+
+</LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/adHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="@string/categories"
+        android:icon="@drawable/ic_cart"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_men"
+                android:icon="@drawable/grid_men"
+                android:title="@string/mens_fashion" />
+
+            <item
+                android:id="@+id/nav_women"
+                android:icon="@drawable/grid_women"
+                android:title="@string/womens_fashion" />
+
+            <item
+                android:id="@+id/nav_mobiles"
+                android:icon="@drawable/grid_mobile"
+                android:title="@string/mob_tab" />
+
+            <item
+                android:id="@+id/nav_computers"
+                android:icon="@drawable/grid_laptop"
+                android:title="@string/computer_tech" />
+
+            <item
+                android:id="@+id/nav_entertainment"
+                android:icon="@drawable/grid_tv"
+                android:title="@string/tv_ent" />
+
+            <item
+                android:id="@+id/nav_camera"
+                android:icon="@drawable/grid_camera"
+                android:title="@string/camera_acc" />
+
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/grid_fridge"
+                android:title="@string/home_kit" />
+
+            <item
+                android:id="@+id/nav_other"
+                android:icon="@drawable/ic_cart"
+                android:title="@string/other_categories" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Share app" />
+    <item
+        android:id="@+id/nav_more_apps"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="More apps by us" />
+
+</menu>

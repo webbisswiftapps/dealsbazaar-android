@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "982861206187",
+    "firebase_url": "https://admob-app-id-4515249264.firebaseio.com",
+    "project_id": "admob-app-id-4515249264",
+    "storage_bucket": "admob-app-id-4515249264.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982861206187:android:46a455400d5ec306",
+        "android_client_info": {
+          "package_name": "com.webbisswift.NepalMessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982861206187-gvo9vsreqf4tsls5301vd69g001pcutd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOI5ux6pgciqomrNqrNyiUArOGRiQmBQM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982861206187:android:16132b5f8778b379",
+        "android_client_info": {
+          "package_name": "com.webbisswift.KawanChat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982861206187-gvo9vsreqf4tsls5301vd69g001pcutd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOI5ux6pgciqomrNqrNyiUArOGRiQmBQM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982861206187:android:bf87f3c82cc8987f",
+        "android_client_info": {
+          "package_name": "apps.webbisswift.dealsbazaar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982861206187-gvo9vsreqf4tsls5301vd69g001pcutd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOI5ux6pgciqomrNqrNyiUArOGRiQmBQM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

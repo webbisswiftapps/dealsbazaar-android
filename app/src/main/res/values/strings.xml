@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Deals बजार</string>
+    <string name="app_title">Deals <small>बजार</small></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="category_listing">Categories</string>
+
+    <!-- Font Names -->
+    <string name="font_poppins">poppins</string>
+    <string name="font_quicksand">quicksand</string>
+
+    <!-- home -->
+    <string name="search_hint">Search for <b>Products</b> and <b>Brands</b> </string>
+    <string name="shop_by_department">Shop By Department</string>
+    <string name="deals_and_specials">Deals And Specials</string>
+    <string name="loading_deals">Looking for best deals and products..</string>
+
+
+
+    <!-- Department Grid items-->
+    <string name="mens_fashion">Men</string>
+    <string name="womens_fashion">Women</string>
+    <string name="mob_tab">Mobiles &amp; Tablets</string>
+    <string name="computer_tech">Computers</string>
+    <string name="tv_ent">Entertainment</string>
+    <string name="camera_acc">Camera</string>
+    <string name="home_kit">Home &amp; Kitchen</string>
+    <string name="kids_fas_toys">Kids</string>
+    <string name="other_categories">Other</string>
+
+
+    <!-- More item -->
+    <string name="view_more">View All</string>
+    <string name="address">http://www.google.com</string>
+
+
+    <!-- Offer Details -->
+    <string name="loading_products">Looking for products in this offer..</string>
+
+
+
+    <string name="transition_name_slide">transition:NAME</string>
+
+    <string name="categories">  Shopping Categories</string>
+
+    <!-- Main Category Keys & Titles -->
+    <string name="category_mobile_tablets">vc_mobiles_tablets</string>
+    <string name="category_mobile_tablets_title">Mobiles &amp; Tablets</string>
+    <string name="category_entertainment">vc_entertainment</string>
+    <string name="category_entertainment_title">Entertainment</string>
+    <string name="category_camera">vc_camera</string>
+    <string name="category_camer_title">Cameras</string>
+    <string name="category_home_kitchen">vc_home_kitchen</string>
+    <string name="category_home_kitchen_title">Home &amp; Kitchen</string>
+    <string name="category_mens_products">vc_mens</string>
+    <string name="category_mens_products_title">Men\'s Fashion</string>
+    <string name="category_womens_products">vc_womens</string>
+    <string name="category_womens_products_title">Women\'s Fashion</string>
+    <string name="category_computers">vc_computer</string>
+    <string name="category_computers_title">Computers &amp; Accessories</string>
+    <string name="category_other">vc_other</string>
+    <string name="category_other_title">Other</string>
+
+
+    <string name="show_disclaimer">Disclaimer</string>
+    <string name="search_history">Search History</string>
+    <string name="find_products">Find Products</string>
+    <string name="request_feature">Request Feature</string>
+    <string name="feedback">Send Feedback</string>
+
+
+    <string name="disclaimer">
+       \'Deals Bazaar\' is an utility app to help you look for products &amp; offers across the web within the region of Nepal. It does not in any way sell or distribute any of the products that are displayed here.
+        The availability &amp; validity of the products &amp; offers shown in the app are not guaranteed by the app and depends solely on the store website that it belongs to.
+        \n\nDeals Bazaar does not take responsibility of any type of deal, sale, interchange between the user and the third-party stores.
+    </string>
+
+
+    <string name="admob_appid">ca-app-pub-7598085745586998~8784124469</string>
+
+
+    <string name="homepage_native_1">ca-app-pub-7598085745586998/4330245264</string>
+    <string name="home_banner">ca-app-pub-7598085745586998/5776625668</string>
+
+    <string name="banner_native_home">ca-app-pub-7598085745586998/2888708062</string>
+
+    <string name="list_native_large">ca-app-pub-7598085745586998/6712265475</string>
+
+    <string name="ad_sponsored">Sponsored</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorPrimaryMiddle">#D32F2F</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="colorAccentDark">#0288d1</color>
+    <color name="colorAccentTP">#990288d1</color>
+    <color name="primary_dark_tp">#88D32F2F</color>
+    <color name="white">#ffffff</color>
+    <color name="light_gray">#ccc</color>
+    <color name="near_white">#ddd</color>
+    <color name="light_gray_m">#eee</color>
+    <color name="text_dark_gray">#555</color>
+    <color name="green">#4caf50</color>
+    <color name="blue">#1e88e5</color>
+
+    <color name="window_bg">#eeeeee</color>
+
+    <!-- From Pallette generator -->
+        <color name="primary">#F44336</color>
+        <color name="primary_dark">#D32F2F</color>
+        <color name="primary_light">#FFCDD2</color>
+        <color name="accent">#03A9F4</color>
+        <color name="secondary_accent">#0288d1</color>
+        <color name="secondary_accent_dark">#0277BD</color>
+        <color name="primary_text">#212121</color>
+        <color name="secondary_text">#757575</color>
+        <color name="icons">#FFFFFF</color>
+        <color name="divider">#BDBDBD</color>
+
+</resources>

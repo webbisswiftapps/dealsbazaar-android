@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/listing_header_box"
+    >
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_category_main"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/imageView" />
+
+
+    <apps.webbisswift.dealsbazaar.Utils.customview.CTextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/white_table_left_only"
+        app:font="@string/font_quicksand"
+        app:fstyle="@integer/font_regular"
+        android:shadowDy="1"
+        android:shadowDx="0.5"
+        android:shadowColor="@color/cardview_shadow_start_color"
+        android:padding="4dp"
+        android:textSize="15sp"
+        android:textColor="@color/colorAccent"
+        android:text="Category Main"
+        />
+
+    <ImageView
+        android:id="@+id/parent_list_item_expand_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:src="@drawable/arrow_down"
+        />
+
+</LinearLayout>

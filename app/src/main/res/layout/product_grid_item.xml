@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="150dp"
+    android:layout_height="220dp"
+    android:minHeight="220dp"
+    android:minWidth="150dp"
+    android:orientation="horizontal"
+    app:cardCornerRadius="5dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="3dp"
+    android:padding="5dp"
+    >
+
+    <FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="210dp"
+        android:minWidth="150dp"
+    >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:selectableItemBackground"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+
+
+
+
+            <ImageView
+                android:id="@+id/productImage"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_horizontal"
+                />
+
+
+            <apps.webbisswift.dealsbazaar.Utils.customview.CTextView
+                android:id="@+id/productTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:text="Product Name that can extend good and god and extend and extend and extend"
+                android:textAppearance="@style/ProductTitleTextStyle"
+                app:font="@string/font_quicksand"
+                app:fstyle="1"
+                android:lineSpacingExtra="-2dp"
+                android:lines="2"
+                />
+
+            <apps.webbisswift.dealsbazaar.Utils.customview.CTextView
+                android:id="@+id/oldProductPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Rs. 1200/-"
+                android:textAppearance="@style/OldProductPriceTextStyle"
+                app:font="@string/font_quicksand"
+                app:fstyle="5"
+                android:layout_marginTop="4dp"
+                android:visibility="visible"
+                android:maxLines="2"
+                />
+
+            <apps.webbisswift.dealsbazaar.Utils.customview.CTextView
+                android:id="@+id/productPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Rs. 1200/-"
+                android:textAppearance="@style/ProductPriceTextStyle"
+                app:font="@string/font_quicksand"
+                app:fstyle="@integer/font_regular"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="10dp"
+                android:maxLines="2"
+                />
+
+
+
+        </LinearLayout>
+
+        <apps.webbisswift.dealsbazaar.Utils.customview.CTextView
+            android:id="@+id/productDiscount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="20% off"
+            android:background="@drawable/gradient_discount_tag"
+            android:lines="1"
+            android:textAppearance="@style/DiscountTextStyle"
+            app:font="@string/font_poppins"
+            app:fstyle="0"
+            />
+
+    </FrameLayout>
+
+</android.support.v7.widget.CardView>

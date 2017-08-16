@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_box"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    >
+
+    <apps.webbisswift.dealsbazaar.Utils.customview.CTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="DISCLAIMER"
+        app:font="@string/font_poppins"
+        app:fstyle="@integer/font_semibold"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <apps.webbisswift.dealsbazaar.Utils.customview.CTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/disclaimer"
+        app:font="@string/font_quicksand"
+        app:fstyle="@integer/font_regular"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+        android:lineSpacingExtra="-2dp"
+        android:padding="10dp"
+        />
+
+</LinearLayout>
